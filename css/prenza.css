@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.span {
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+}
+
+.texspan{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pre{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: white;
+}
+.pantex{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+    

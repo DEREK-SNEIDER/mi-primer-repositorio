@@ -1,0 +1,379 @@
+.input {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+}
+
+.input::placeholder {
+    color: #777;
+}
+
+.input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+
+
+
+.input {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    -webkit-transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+}
+
+.input::-webkit-input-placeholder {
+    color: #777;
+}
+
+.input::-moz-placeholder {
+    color: #777;
+}
+
+.input:-ms-input-placeholder {
+    color: #777;
+}
+
+.input::-ms-input-placeholder {
+    color: #777;
+}
+
+.input::placeholder {
+    color: #777;
+}
+
+.input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.input:focus::-moz-placeholder {
+    opacity: 0;
+    -moz-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.input:focus:-ms-input-placeholder {
+    opacity: 0;
+    -ms-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.input:focus::-ms-input-placeholder {
+    opacity: 0;
+    -ms-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.input:focus::placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+
+
+
+button {
+    font-family: inherit;
+    font-size: 15px;
+    background: royalblue;
+    color: white;
+    padding: 0, 7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin-top: 7px;
+}
+
+button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+    transform: translateX(5em);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}
+
+
+
+/*.redes {
+    height: 200px;
+    background-color: rgb(148, 208, 243);
+    padding: 30px;
+
+}
+
+.redes h2 {
+    font-family: gabriola;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sociales {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sociales li {
+    display: inline-block;
+}
+
+
+
+.sociales .resdesimg {
+    padding: 20px;
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+}
+
+.sociales:focus,
+img:hover {
+    outline: none;
+    padding: .5rem 2rem;
+    border-radius: 3rem;
+    border-color: #7a9cc6;
+}*/
+
+h3 {
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: royalblue;
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+h3 span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid royalblue;
+}
+
+h3 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+}
+
+h3:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: royalblue;
+}
+
+h3:hover {
+    color: rgb(9, 247, 29);
+}
+
+h3:active span::before {
+    background: #2751cd;
+}
+
+/* animacion despues de enviar  */
+.spinner {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+    width: 15px;
+    height: 15px;
+    border: double;
+    border-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.dot1 {
+    animation: jump765 1.6s -0.32s linear infinite;
+    background: #2495ff;
+}
+
+.dot2 {
+    animation: jump765 1.6s -0.16s linear infinite;
+    background: #2495ff;
+}
+
+.dot3 {
+    animation: jump765 1.6s linear infinite;
+    background: #2495ff;
+}
+
+@keyframes jump765 {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(2.0);
+        transform: scale(2.0);
+    }
+}
+
+
+.container-portada {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static8.depositphotos.com/1239637/998/i/450/depositphotos_9989215-stock-photo-ocelot-lying-in-the-tree.jpg);
+    background-size: 200%;
+    animation: movimiento 20s infinite linear alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+
+/*aimacion del nombre principal*/
+
+.capa-gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    opacity: 0.5;
+}
+
+.container-details {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+
+.details {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.details h1 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.details p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.details button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.details button:hover {
+    background: white;
+    color: black;
+}
