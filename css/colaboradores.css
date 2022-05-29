@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.span {
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+}
+
+.texspan {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pre {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: white; 
+}
+
+h5{
+    width: 10px;
+}
+
+h4 {
+    background-color: aquamarine;
+    text-align: center;
+    width: 10px;
+
+}
+
+figure {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
