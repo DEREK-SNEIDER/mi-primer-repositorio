@@ -1,3 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 
+body {
+    background-color: beige;
+}
 
+center {
+    background-position: auto;
+    border: 10px;
+    right: 50px;
+    width: 200px;
+    height: 150px;
+}
+
+.inicio img {
+    object-fit: cover;
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+}
+
+.menu li {
+    background-position: 100px;
+    bottom: 100px;
+    justify-content: right;
+}
+
+.bien__venido {
+    padding: 50px;
+    height: 200px;
+}
+
+.bien__venido div {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    justify-content: flex-start;
+    display: flex;
+    box-align: center;
+    background: 50px;
+}
+
+.bien__venido h2 {
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.bien__venido p {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 30px;
+}
+
+.colaboradores {
+    margin: auto;
+    margin-top: 500px;
+}
+
+.colaboradores .conjunto {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.colaboradores h3 {
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.colaboradores img {
+    width: 300px;
+    height: 300px;
+}
+
+.colaboradores h4 p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.galeria h3 {
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 300px;
+    background-position: 10px;
+}
+
+.prenza {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.prenza h3 {
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.prenza h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.prenza img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.prenza span {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.selecion {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.selecion h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: darkblu;
+    text-align: center;
+    padding: 20px;
+}
+
+.selecion p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section h3 {
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.redes {
+    height: 200px;
+    background-color: #94d0f3;
+    padding: 30px;
+}
+
+.redes h2 {
+    text-align: center;
+}
+
+.redes span {
+    color: blue;
+}
+
+.redes ul {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.redes li {
+    display: inline-block;
+}
+
+.redes img {
+    padding: 20px;
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    width: 100px;
+    height: 80px;
+}
+
+.col-md-6 {
+    border: 10px;
+    right: 50px;
+}

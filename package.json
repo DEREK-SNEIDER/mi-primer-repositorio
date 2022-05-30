@@ -1,15 +1,25 @@
 {
-  "name": "mirepo",
+  "name": "primer-proyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es nuestro primer proyecto con SASS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css":"node-sass --include-path scss sass/styles.scss css/styles.css",
-    "watch-css":"nodemon -e scss -x  \"npm run build-css\" "
-
+    "watch-css":"nodemon -e scss -x \"npm run build-css\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEREK-SNEIDER/mi-primer-repositorio.git"
   },
   "author": "Esneider aranzales",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEREK-SNEIDER/mi-primer-repositorio/issues"
+  },
+  "homepage": "https://github.com/DEREK-SNEIDER/mi-primer-repositorio#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
 }
