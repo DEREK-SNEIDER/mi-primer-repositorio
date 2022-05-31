@@ -198,7 +198,8 @@ section h3 {
     li {
         display: inline-block;
     }
-    img{
+
+    img {
         padding: 20px;
         outline: none;
         padding: .2rem 1rem;
@@ -209,7 +210,38 @@ section h3 {
 
 }
 
-.col-md-6{
+.col-md-6 {
     border: 10px;
     right: 50px;
+}
+
+
+.fhgd {
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    h5 {
+        bottom: 18px;
+        color: rgb(5, 5, 248);
+        text-align: center;
+    }
+
+    h4 {
+        bottom: 18px;
+        color: rgb(38, 38, 192);
+        text-align: center;
+    }
+
+    h3 {
+        bottom: 18px;
+        color: rgb(4, 4, 136);
+        text-align: center;
+    }
 }
