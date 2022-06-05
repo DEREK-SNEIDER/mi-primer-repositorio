@@ -22,10 +22,9 @@ body {
   height: 20%;
   border-radius: 15px; }
 
-.menu li {
-  background-position: 100px;
-  bottom: 100px;
-  justify-content: right; }
+.menu {
+  height: 50px;
+  margin-top: 20px; }
 
 .bien__venido {
   padding: 20px;
