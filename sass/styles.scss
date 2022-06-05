@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import"_colores";
+@import"_variable";
+
+
+@import url($fonts);
 
 * {
     margin: 0;
@@ -8,22 +12,22 @@
 }
 
 body {
-    background-color: beige;
+    background-color:$primario;
 }
 
-center {
+/*center {
     background-position: auto;
     border: 10px;
     right: 50px;
     width: 200px;
     height: 150px;
 }
-
+*/
 .inicio {
     img {
         object-fit: cover;
-        width: 30%;
-        height: 30%;
+        width: 20%;
+        height: 20%;
         border-radius: 15px;
     }
 }
@@ -37,8 +41,20 @@ center {
 }
 
 .bien__venido {
-    padding: 50px;
+    padding: 20px;
     height: 200px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+
+    img{
+        width: 500px;
+        height:500px;
+        
+        margin-right: 10px;
+        
+        
+    }
 
     div {
         width: 500px;
@@ -48,12 +64,13 @@ center {
         display: flex;
         box-align: center;
         background: 50px;
+        
     }
 
     h2 {
         text-align: center;
         font-weight: bold;
-        color: darkblue
+        color:$color-texto;
     }
 
     p {
@@ -78,14 +95,15 @@ center {
     }
 
     h3 {
-        color: darkblue;
+        color:$color-texto;
         text-align: center;
-        padding: 10px;
+
     }
 
     img {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
+        padding: 20px;
     }
 
     h4 p {
@@ -98,16 +116,20 @@ center {
 }
 
 .galeria {
+    text-align: center;
+    
     h3 {
-        color: darkblue;
+        color:$color-texto;
         text-align: center;
         padding: 10px;
     }
 
     img {
-        width: 300px;
-        height: 300px;
-        background-position: 10px;
+        width:$ctd;
+        height:$ctd;
+        margin:auto;
+        margin-top: 20px;
+        max-width: 1000px;
     }
 
 }
@@ -120,21 +142,21 @@ center {
     margin-top: 100px;
 
     h3 {
-        color: darkblue;
-        text-align: center;
+        color:$color-texto;
+        text-align:$texto;
         padding: 10px;
     }
 
     h2 {
         font-size: 30px;
         font-weight: 400;
-        text-align: center;
+        text-align:$texto;
         
     }
 
     img {
-        width: 300px;
-        height: 300px;
+        width:$ctd;
+        height:$ctd;
         float: left;
         margin-right: 20px;
         margin-bottom: 20px;
@@ -163,7 +185,7 @@ center {
     h2 {
         font-size: 30px;
         font-weight: 400;
-        color: darkblu;
+        color:$color-texto;
         text-align: center;
         padding: 20px;
     }
@@ -177,8 +199,8 @@ center {
 }
 
 section h3 {
-    color: darkblue;
-    text-align: center;
+    color:$color-texto;
+    text-align:$texto;
     padding: 10px;
 }
 
@@ -188,7 +210,7 @@ section h3 {
     padding: 30px;
 
     h2 {
-        text-align: center;
+        text-align: $texto;
     }
 
     span {
@@ -236,19 +258,19 @@ section h3 {
 
     h5 {
         bottom: 18px;
-        color: rgb(5, 5, 248);
-        text-align: center;
+        color:$color-texto-dos;
+        text-align:$texto;
     }
 
     h4 {
         bottom: 18px;
-        color: rgb(38, 38, 192);
-        text-align: center;
+        color:$color-texto-dos;
+        text-align:$texto;
     }
 
     h3 {
         bottom: 18px;
-        color: rgb(4, 4, 136);
-        text-align: center;
+        color:$color-texto-dos;
+        text-align:$texto;
     }
 }
