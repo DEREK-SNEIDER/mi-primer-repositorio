@@ -27,10 +27,10 @@ body {
   margin-top: 20px; }
 
 .bien__venido {
-  padding: 20px;
-  height: 200px;
+  width: 100%;
   max-width: 1000px;
   margin: auto;
+  padding: 20px;
   margin-top: 100px; }
   .bien__venido img {
     width: 500px;
@@ -50,13 +50,14 @@ body {
     color: darkblue; }
   .bien__venido p {
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     text-align: center;
     padding: 30px; }
 
 .colaboradores {
   margin: auto;
-  margin-top: 500px; }
+  margin-top: 20px;
+  display: block 20px; }
   .colaboradores .conjunto {
     font-size: 18px;
     font-weight: 300;

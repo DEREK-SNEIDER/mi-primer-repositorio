@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color:$primario;
+    background-color: $primario;
 }
 
 /*center {
@@ -38,19 +38,20 @@ body {
 }
 
 .bien__venido {
-    padding: 20px;
-    height: 200px;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
+    padding: 20px;
     margin-top: 100px;
 
-    img{
+
+    img {
         width: 500px;
-        height:500px;
-        
+        height: 500px;
+
         margin-right: 10px;
-        
-        
+
+
     }
 
     div {
@@ -61,27 +62,29 @@ body {
         display: flex;
         box-align: center;
         background: 50px;
-        
+
     }
 
     h2 {
         text-align: center;
         font-weight: bold;
-        color:$color-texto;
+        color: $color-texto;
     }
 
     p {
         width: 100%;
-        max-width: 1000px;
+        max-width: 900px;
         text-align: center;
         padding: 30px;
     }
 
 }
 
+
 .colaboradores {
     margin: auto;
-    margin-top: 500px;
+    margin-top: 20px;
+    display:block 20px ;
 
     .conjunto {
         font-size: 18px;
@@ -92,7 +95,7 @@ body {
     }
 
     h3 {
-        color:$color-texto;
+        color: $color-texto;
         text-align: center;
 
     }
@@ -114,17 +117,17 @@ body {
 
 .galeria {
     text-align: center;
-    
+
     h3 {
-        color:$color-texto;
+        color: $color-texto;
         text-align: center;
         padding: 10px;
     }
 
     img {
-        width:$ctd;
-        height:$ctd;
-        margin:auto;
+        width: $ctd;
+        height: $ctd;
+        margin: auto;
         margin-top: 20px;
         max-width: 1000px;
     }
@@ -139,26 +142,26 @@ body {
     margin-top: 100px;
 
     h3 {
-        color:$color-texto;
-        text-align:$texto;
+        color: $color-texto;
+        text-align: $texto;
         padding: 10px;
     }
 
     h2 {
         font-size: 30px;
         font-weight: 400;
-        text-align:$texto;
-        
+        text-align: $texto;
+
     }
 
     img {
-        width:$ctd;
-        height:$ctd;
+        width: $ctd;
+        height: $ctd;
         float: left;
         margin-right: 20px;
         margin-bottom: 20px;
-        
-        
+
+
 
     }
 
@@ -167,7 +170,7 @@ body {
         font-weight: 300;
         margin-top: 20px;
         text-align: center;
-    
+
     }
 }
 
@@ -182,7 +185,7 @@ body {
     h2 {
         font-size: 30px;
         font-weight: 400;
-        color:$color-texto;
+        color: $color-texto;
         text-align: center;
         padding: 20px;
     }
@@ -196,8 +199,8 @@ body {
 }
 
 section h3 {
-    color:$color-texto;
-    text-align:$texto;
+    color: $color-texto;
+    text-align: $texto;
     padding: 10px;
 }
 
@@ -246,7 +249,7 @@ section h3 {
     padding: 20px;
     margin: auto;
     margin-top: 20px;
-    
+
 
     img {
         width: 300px;
@@ -255,19 +258,19 @@ section h3 {
 
     h5 {
         bottom: 18px;
-        color:$color-texto-dos;
-        text-align:$texto;
+        color: $color-texto-dos;
+        text-align: $texto;
     }
 
     h4 {
         bottom: 18px;
-        color:$color-texto-dos;
-        text-align:$texto;
+        color: $color-texto-dos;
+        text-align: $texto;
     }
 
     h3 {
         bottom: 18px;
-        color:$color-texto-dos;
-        text-align:$texto;
+        color: $color-texto-dos;
+        text-align: $texto;
     }
 }
